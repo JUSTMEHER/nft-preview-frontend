@@ -76,6 +76,8 @@ p{
 .avatar{
     width:50px;
     top:590px;
+    border-radius: 50%;
+    border: solid 1px white;
 }
 .aclass{
    top:580px; 
@@ -89,21 +91,20 @@ p{
     color:hsl(178, 100%, 50%);
     cursor: pointer;
 }
-.hover{
+.overlay{
     position: absolute;
-    top: 10;
-    left: 1;
-    width: 100%;
-    background-color: hsl(178, 100%, 50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
+    top: 4.5%;
+    left:7.2%;
+    width: 85%;
+    height: 52.5%;
+    border-radius: 20px;
+    background-color: hsla(178, 100%, 50%, .5);
     opacity: 0;
-    cursor: pointer;
+}
+.hover{
+    position: relative;
+    left:150px;
+    top:150px;
 }
 
-.hover:hover{
-    opacity: .5;
-}
 
