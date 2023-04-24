@@ -24,6 +24,10 @@
     .hover{
       size: 10%;
     }
+    .main-img:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
   </style>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
@@ -31,9 +35,11 @@
   <div id="container">
   <div class="card">
     <div class="card-image">
-      <figure class="image is-4by3">
-        <img class="main-img" src="images/image-equilibrium.jpg" alt="image-equilibrium">
-        <div class="background"> <img class="hover" src="images/icon-view.svg" alt="icon-view"></div>
+      <div class="main-img">
+        <img  src="images/image-equilibrium.jpg" alt="image-equilibrium">
+        <div class="overlay">
+           <img class="hover" src="images/icon-view.svg" alt="icon-view">
+        </div>
       </figure>
     </div>
     <div class="card-content">
